@@ -1,0 +1,54 @@
+.fill {
+    background-color: #f2e9e9;
+    min-height: 100vh
+}
+
+.main {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.a-col {
+    background-image: url(chris-ried-ieic5Tq8YMk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    filter: grayscale(74%);
+    overflow: hidden;
+}
+
+.b-col {
+    background-color: white;
+    min-height: 100vh
+}
+
+.head {
+    margin: auto;
+    width: 50%;
+    top: 40%;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 400%;
+}
+
+.desc {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    font-weight: thin;
+}
+
+.contacts {
+    margin: -5%;
+    padding-top: 5%;
+}
+
+
+
+ 

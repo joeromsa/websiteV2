@@ -1,0 +1,25 @@
+.hello {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: thin;
+    font-size: 400%;
+}
+
+.about {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: thin;
+    font-size: 250%;
+
+    padding-top: 5%;
+}
+
+.para {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: thin;
+    font-size: 200%;
+
+    padding-top: 1.5%;
+}
+
+.col-return {
+    padding-top: 2%;
+}
