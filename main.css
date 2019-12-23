@@ -11,7 +11,7 @@
 }
 
 .a-col {
-    background-image: url(chris-ried-ieic5Tq8YMk-unsplash.jpg);
+    background-image: url(chris-ried-ieic5Tq8YMk-unsplash-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,10 +20,29 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width: 800px) {
+    .a-col {
+        background-image: url(chris-ried-ieic5Tq8YMk-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 50vh;
+        filter: grayscale(74%);
+        overflow: hidden;
+    }
+  }
+
 .b-col {
     background-color: white;
     min-height: 100vh
 }
+
+@media only screen and (max-width: 800px) {
+    .b-col {
+        background-color: white;
+        min-height: 50vh
+    }
+  }
 
 .head {
     margin: auto;
@@ -32,11 +51,27 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 800px) {
+    .head {
+        margin: auto;
+        width: 50%;
+        top: 10%;
+        text-align: center;
+    }
+  }
+
 .name {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 400%;
 }
+
+@media only screen and (max-width: 800px) {
+    .name {
+        padding-top: 50px;
+        font-size: 150%;
+    }
+  }
 
 .desc {
     font-family: 'Source Sans Pro', sans-serif;
@@ -44,10 +79,34 @@
     font-weight: thin;
 }
 
+@media only screen and (max-width: 800px) {
+    .desc {
+        font-size: 100%;
+    }
+  }
+
 .contacts {
-    margin: -5%;
     padding-top: 5%;
+    right: 20px;
 }
+
+@media only screen and (max-width: 700px) {
+    .contacts {
+        padding-top: 5%;
+        right: 65px;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    img {
+        height: 15px;
+        width: 15px;
+    }
+  }
+
+
+
+
 
 
 
